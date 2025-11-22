@@ -36,10 +36,35 @@ Youtube: https://www.youtube.com/watch?v=oyjOBhwSl-8
 
 Optional: _Conda_
 
+#### Doanlaod some packages 
+如果是只用pip的话:
+```bash
+pip install -r requirement.txt
+```
+
+如果是conda想新建环境的话:
+```bash
+conda create env -f environment.yaml
+```
+
+
 ## Let's dive into some ML models !!!
+经典的ML模型我们在通常会先pip install scikit-learn，也就是我们常说的sklearn包，里面包含了大量的ML所需要的模型和一些评估函数，整体上手非常简单，但是sklearn一般比较适配pandas包（个人感觉），对数据要求也比较严格，所以我们在开始使用模型前往往需要做简单的数据处理，清洗数据或者自动填充，下面会介绍一些数模甚至是实际项目和研究中常用的模型
 ### Traditional ones  
+•	可解释性强
+•	训练速度快
+•	对小数据集很友好
+•	在经典结构化数据任务中表现依然很可靠
+1. Linear Models
+2. SVM, Support Vector Machine
+3. Decision Tree
+4. Ensemble Models
 ### Novel ones 
+1. Boosting series 
+2. Neural Network
 
 ## Some practice
 ### Platform we can use 
+kaggle这类竞赛平台以及一些机构组织的学习机会，比如Datawhale、freecodecamp
 ### The routine 
+(详见授课)
