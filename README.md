@@ -67,4 +67,9 @@ conda create env -f environment.yaml
 ### Platform we can use 
 kaggle这类竞赛平台以及一些机构组织的学习机会，比如Datawhale、freecodecamp
 ### The routine 
-(详见授课)
+1. 数据处理
+2. 划分数据（2层意思）
+3. 归一化
+4. fit训练过程
+5. predict
+6. evaluate
